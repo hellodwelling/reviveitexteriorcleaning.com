@@ -14,6 +14,7 @@
     
     <script src="https://prophone.herokuapp.com/staticfiles/landing_page_gen/render.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/4f07488cb7.js" crossorigin="anonymous"></script>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
     
     <meta content="https://landing-page-app-hero-images.s3.amazonaws.com/media/AO0M8M1JMGYCFCTX20K4880GXU8FM599YV75RCD3.jpeg" property="og:image">
@@ -27,7 +28,7 @@
     
     
 
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
 
       <title>Revive It Exterior Cleaning - The Best Residential &amp; Commericial Pressure Washing in Central Ohio, OH & surrounding areas.  </title>
 
@@ -276,6 +277,7 @@
                                  
                            
                   
+
                </div>
             
             
@@ -389,36 +391,37 @@
         <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0">
                 <h1 class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl lg:text-7xl tracking-wide  text-center">Our Best Work</h1>
                 <h2 class="my-3 mb-10 text-xl font-medium text-gray-500 text-center">See why our customers love us</h2>
-                <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row">
+                <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false }" @keydown.escape= "open = false">
+
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/93Z3ZHL927YNPIGQSIRA003DW458L7WCWMXIG2GD.jpeg"  alt = "Photo number 1 of Revive It Exterior Cleaning&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
-                    
-                
-                    
-                                
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ZWMAP5OMBRZAVZMFM04SJNJPY87E6H11XNUWHR0B.jpeg"  alt = "Photo number 2 of Revive It Exterior Cleaning&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/93Z3ZHL927YNPIGQSIRA003DW458L7WCWMXIG2GD.jpeg"  alt = "Photo number 1 of Revive It Exterior Cleaning&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/MYV0A86O5P01A8JVMB6TWKRJ2GI9MVOI6LHDF6XX.jpeg"  alt = "Photo number 3 of Revive It Exterior Cleaning&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ZWMAP5OMBRZAVZMFM04SJNJPY87E6H11XNUWHR0B.jpeg"  alt = "Photo number 2 of Revive It Exterior Cleaning&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/VS67IQLXJYI0SI2AZ2QGYWFEBZ526TR6179479CJ.jpeg"  alt = "Photo number 4 of Revive It Exterior Cleaning&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/MYV0A86O5P01A8JVMB6TWKRJ2GI9MVOI6LHDF6XX.jpeg"  alt = "Photo number 3 of Revive It Exterior Cleaning&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/K9BQWSPJ51ZJHHPOTALGC8NDYZ0SOI8RN66H5TR9.jpeg"  alt = "Photo number 5 of Revive It Exterior Cleaning&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/VS67IQLXJYI0SI2AZ2QGYWFEBZ526TR6179479CJ.jpeg"  alt = "Photo number 4 of Revive It Exterior Cleaning&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                 
                     
                                 
-                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8"><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/YONY2QSKO24N7A7XEZQB8UKI020GB4695PZWYMRG.jpeg"  alt = "Photo number 6 of Revive It Exterior Cleaning&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/K9BQWSPJ51ZJHHPOTALGC8NDYZ0SOI8RN66H5TR9.jpeg"  alt = "Photo number 5 of Revive It Exterior Cleaning&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
+                    
+                
+                    
+                                
+                        <div class="flex sm:h-30 md:h-auto md:w-1/3 px-4 mb-8" @click="open = true" ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/YONY2QSKO24N7A7XEZQB8UKI020GB4695PZWYMRG.jpeg"  alt = "Photo number 6 of Revive It Exterior Cleaning&#x27;s best work performing a Home Softwash job"   loading="lazy" ></div>
                     
                  
                 </div>     
@@ -489,8 +492,8 @@
 <section id= "faqs" class="py-16   bg-white text-gray-900  md:py-20 lg:py-24">
     <div class="max-w-5xl px-12 mx-auto xl:px-0">
 
-        <h1 class="text-3xl  font-bold md:text-4xl lg:text-6xl xl:text-7xl text-center ">Faqs</h1>
-        <h2 class="mt-4 text-xl font-thin  lg:text-2xl text-center lg:text-left">Your questions answered</h2>
+        <h1 class="mb-5 text-3xl  mx-auto text-center font-extrabold leading-none sm:text-4xl lg:text-7xl">Faqs</h1>
+         <h2 class="my-3 mb-10  text-xl font-medium text-gray-500 text-center">Your questions answered</h2>
 
         <div class="relative mt-12 space-y-3">
 
